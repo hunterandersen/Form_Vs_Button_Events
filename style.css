@@ -1,0 +1,23 @@
+*{
+    margin-right:15px;
+}
+
+html{
+    height: 100%;
+}
+
+section{
+    height: 50%;
+}
+
+label{
+    margin-right:0;
+}
+
+#separator{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-inline: auto;
+    width:90%;
+    border-bottom: 5px dotted black;
+}

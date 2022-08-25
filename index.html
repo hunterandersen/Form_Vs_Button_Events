@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Vs Buttons</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <h1>Form Events</h1>
+      <form id="submitForm" autocomplete="off">
+        <label for="nameInput-form">Input your Name</label>
+        <input type="text" name="nameInput-form" id="nameInput-form" />
+        <label for="studentCheck-form">Are you a student?</label>
+        <input type="checkbox" name="studentCheck-form" id="studentCheck-form" value=true />
+        <label for="numInput-form">Input your favorite number</label>
+        <input type="number" name="numInput-form" id="numInput-form" />
+
+        <input type="submit" value="Submit Me" />
+      </form>
+      <p id="formOutput">Output:</p>
+    </section>
+    <div id="separator"></div>
+    <section>
+      <h1>Button Events</h1>
+      <label for="nameInput-btn">Input your Name</label>
+      <input autocomplete="off" type="text" name="nameInput-btn" id="nameInput-btn" />
+      <label for="studentCheck-btn">Are you a student?</label>
+      <input autocomplete="off" type="checkbox" name="studentCheck-btn" id="studentCheck-btn" />
+      <label for="numInput-btn">Input your favorite number</label>
+      <input autocomplete="off" type="number" name="numInput-btn" id="numInput-btn" />
+
+      <input id="enterButton" type="button" value="Enter" />
+    </section>
+    <p id="buttonOutput">Output: </p>
+  </body>
+</html>
